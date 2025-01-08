@@ -1,0 +1,49 @@
+Topic:
+
+> what is node?
+> why do we use it?
+> history of Node?
+> Are Node and JavaScript the same?
+> why should we learn Nodejs?
+> Major Topics
+
+//what is node?
+
+> Node is not a programming language.
+> This is server Environment.
+> Node js can connect with database.
+> Code and syntax is very similar to JavaScript.
+> but not exactly the same.
+> Nodejs is free, open source.
+> Nodejs use Chrome's V8 engine to execute code.
+
+// why do we use Node?
+> Nodejs mostly used for API
+> So we can connect the same database with Web App, Mobile App.
+> Node js is easy to understand who know javascript.
+> Node is super-fast for APIs.
+> With node and JavaScript, you can become Full Stack Developer.
+
+
+// History and more
+
+> First Release: 27 May, 2009
+> Current Version: 16.4
+> Written in C, C++, Javascript
+
+// JavaScript and Node are the same?
+
+> JavaScript and Nodejs code syntax is same.
+> If you know JavaScript you can easily understand Nodejs.
+> You can connect with DB.
+> Nodejs run on the server side.
+> Javascript is run on the browser.
+
+
+// why should we learn Nodejs?
+
+> If you are a javascript developer then you can easily learn Node.
+> You can become a full-Stack developer.
+> Free and in Demand for jobs
+> Salary is good as compare to web-developer or PHP Developer.
+
