@@ -1,0 +1,15 @@
+Cire Module in Node.js
+
+> what are the core modules
+> what are the global modules
+> Global modules example
+> Non global modules with example
+> Interview Question
+
+// what are the core modules
+console.log("Hello)
+console, fs, buffer,HTTP
+some basic features which are already build in the programming language that known as core modules.
+
+global - console
+fs- non-global modules
