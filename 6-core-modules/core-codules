@@ -13,3 +13,6 @@ some basic features which are already build in the programming language that kno
 
 global - console
 fs- non-global modules
+
+Q: Do we require to declare const fs = require('fs'); at the top?
+A: No, but as per the recommendations it should be in the top but it will work if we keep below.

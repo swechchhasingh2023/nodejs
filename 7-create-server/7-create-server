@@ -5,3 +5,17 @@ Make basic server Output on Browser:
 > Arrow function
 > Get output on browser
 > Interview Question
+
+Q: What do http module?
+In node js http handle server request and response. 
+
+Q. how can pass parameters in function?
+Q. arrow function
+
+/*
+function test(a){
+    return a*10
+}
+
+const test = (a)=> a*10
+*/
