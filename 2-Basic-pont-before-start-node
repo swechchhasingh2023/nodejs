@@ -1,0 +1,37 @@
+// Basic Before Getting start:
+
+> What are Client and Server side?
+> where do we use node(Client or Server side)
+> How Nodejs use javascript?
+> what developer make with Nodejs?
+
+// Client and Server side?
+            reuqest
+Client -----------------> Server
+       <-----------------
+            response
+            api used for communication
+Javascript                  Nodejs
+Html
+Css
+
+// How Nodejs use javascript?
+
+     Chrome                           Node
+chrome's V8 engine written in c++
+
+
+// what developer make with Nodejs?
+
+> Developers make API with Nodejs
+> So we can connect server with client
+> Node can make API for web, android and IOS etc.
+> Make can also make website.
+
+
+web <----------------------->         <---------------------> Database
+                               Server
+mobile app<----------------->         <---------------------> File server
+
+
+

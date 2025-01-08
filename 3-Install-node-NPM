@@ -1,0 +1,21 @@
+Install and setup Node js
+
+> Download Nodejs
+> Install NPM and Node
+> List of recommended code editor
+
+https://nodejs.org/en
+download - recommend for most users (stable)
+
+// NPM : Node package manager
+
+> it's manage external package or library.
+> It automatically install with node
+
+node -v  v22.9.0
+npm -v  10.9.0
+(both versions can be different)
+
+// recommended code editor - VS Code, Atom, sublime, webstorm etc.
+
+

@@ -1,0 +1,44 @@
+First script with Node:
+
+> script with command line
+> make folder and file
+> write first code and run
+> Interview question
+
+// script with command line - rarely used
+
+nodejs % node
+Welcome to Node.js v22.9.0.
+Type ".help" for more information.
+
+> console.log("hello world!")
+hello world!
+> let a = 10
+undefined
+> let b = 20
+undefined  
+> console.log(a+b)
+30
+undefined
+> 
+
+// here only print nothing return that's why undefined.
+
+> console.warn(a+b)
+30
+undefined
+> 
+
+
+nodejs % cd 4-make-node-program
+4-make-node-program % node index.js
+hello swechchha
+90
+4-make-node-program % 
+
+Interview question:
+Q. Is browser and node console.log is similar?
+Ans. No
+The node:console module provides a simple debugging console that is similar to the JavaScript console mechanism provided by web browsers.
+
+https://nodejs.org/docs/latest/api/console.html
