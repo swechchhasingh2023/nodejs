@@ -1,0 +1,85 @@
+Fundamentals of Node js:
+
+> JavaScript Fundamentals for Node js.
+> Conditions, Loops and array
+> the import function and variable from another file.
+> Interview question
+
+
+cd 5-Javascript-fundamentals-in-node  
+5-Javascript-fundamentals-in-node % node index.js
+matched
+5-Javascript-fundamentals-in-node % node index.js
+
+Interview question:
+filter function: 
+
+The filter method in JavaScript is used to create a new array containing only the elements from an existing array that satisfy a specific condition. 
+
+Key Features of filter:
+
+Non-mutating: The original array remains unchanged.
+Returns a new array: Contains elements that pass the test implemented by the provided callback function.
+Improves readability: Cleaner and more concise than traditional loops for filtering data.
+Syntax:
+
+array.filter((element, index, array) => {
+    // condition
+});
+
+Why Use filter?
+Extract Relevant Data: To extract specific items based on a condition.
+Clean Code: Makes code more declarative and easier to understand.
+Chaining: Works well with other methods like map and reduce for functional programming.
+
+Examples:
+1. Filtering Even Numbers
+javascript
+Copy code
+const numbers = [1, 2, 3, 4, 5, 6];
+const evenNumbers = numbers.filter(num => num % 2 === 0);
+console.log(evenNumbers); // Output: [2, 4, 6]
+
+2. Filtering by a Specific Property
+
+const products = [
+    { id: 1, name: "Laptop", price: 1500 },
+    { id: 2, name: "Phone", price: 800 },
+    { id: 3, name: "Tablet", price: 600 }
+];
+const expensiveProducts = products.filter(product => product.price > 1000);
+console.log(expensiveProducts); 
+// Output: [{ id: 1, name: "Laptop", price: 1500 }]
+
+3. Filtering Strings
+
+const words = ["apple", "banana", "cherry", "date"];
+const filteredWords = words.filter(word => word.includes("a"));
+console.log(filteredWords); // Output: ["apple", "banana"]
+
+4. Removing Falsy Values
+
+const mixedArray = [0, "hello", false, 42, "", null, "world"];
+const truthyValues = mixedArray.filter(Boolean);
+console.log(truthyValues); // Output: ["hello", 42, "world"]
+
+When to Use filter:
+You want to remove items from an array based on a condition.
+You need to keep the original array unchanged while deriving a new subset.
+You’re working with declarative code patterns (e.g., functional programming).
+Comparison with Loops:
+Using filter:
+
+const numbers = [1, 2, 3, 4, 5];
+const oddNumbers = numbers.filter(num => num % 2 !== 0);
+console.log(oddNumbers); // Output: [1, 3, 5]
+
+Using a for loop:
+
+const numbers = [1, 2, 3, 4, 5];
+const oddNumbers = [];
+for (let num of numbers) {
+    if (num % 2 !== 0) oddNumbers.push(num);
+}
+console.log(oddNumbers); // Output: [1, 3, 5]
+The filter approach is shorter, more expressive, and avoids manually managing the loop.

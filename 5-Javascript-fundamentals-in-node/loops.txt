@@ -1,0 +1,158 @@
+1. for Loop
+Executes a block of code a specific number of times.
+
+Syntax:
+
+for (initialization; condition; increment/decrement) {
+    // code to execute
+}
+
+for (let i = 0; i < 5; i++) {
+    console.log(i); // Output: 0 1 2 3 4
+}
+
+
+2. while Loop
+Executes a block of code as long as the specified condition is true.
+
+Syntax:
+
+while (condition) {
+    // code to execute
+}
+
+Example:
+
+let i = 0;
+while (i < 5) {
+    console.log(i); // Output: 0 1 2 3 4
+    i++;
+}
+
+
+3. do...while Loop
+Executes the code block once, then repeats the execution as long as the specified condition is true.
+
+Syntax:
+
+do {
+    // code to execute
+} while (condition);
+
+Example:
+
+let i = 0;
+do {
+    console.log(i); // Output: 0 1 2 3 4
+    i++;
+} while (i < 5);
+
+
+4. for...of Loop
+Iterates over iterable objects (e.g., arrays, strings).
+
+Syntax:
+
+for (variable of iterable) {
+    // code to execute
+}
+
+Example (with array):
+
+const numbers = [10, 20, 30];
+for (let num of numbers) {
+    console.log(num); // Output: 10 20 30
+}
+
+Example (with string):
+
+const name = "John";
+for (let char of name) {
+    console.log(char); // Output: J o h n
+}
+
+
+5. for...in Loop
+Iterates over the enumerable properties of an object (keys in objects or indices in arrays).
+
+Syntax:
+
+for (variable in object) {
+    // code to execute
+}
+
+Example (with object):
+
+const person = { name: "John", age: 30 };
+for (let key in person) {
+    console.log(`${key}: ${person[key]}`); 
+    // Output: name: John, age: 30
+}
+
+Example (with array):
+
+const arr = [10, 20, 30];
+for (let index in arr) {
+    console.log(index); // Output: 0 1 2
+}
+
+
+6. Array.prototype.forEach
+A higher-order function to iterate over an array. It is not technically a "loop" but commonly used for iteration.
+
+Syntax:
+
+array.forEach((element, index) => {
+    // code to execute
+});
+
+Example:
+
+const numbers = [1, 2, 3];
+numbers.forEach((num, index) => {
+    console.log(`Index: ${index}, Value: ${num}`);
+});
+// Output: Index: 0, Value: 1
+//         Index: 1, Value: 2
+//         Index: 2, Value: 3
+
+
+
+7. map() Method
+Used for transforming arrays (returns a new array).
+
+Syntax:
+
+array.map((element, index) => {
+    // transformation logic
+});
+
+Example:
+
+const numbers = [1, 2, 3];
+const squares = numbers.map(num => num * num);
+console.log(squares); // Output: [1, 4, 9]
+
+
+
+8. break and continue in Loops
+break: Exits the loop completely.
+continue: Skips the current iteration and continues to the next one.
+
+Example (break):
+
+javascript
+Copy code
+for (let i = 0; i < 5; i++) {
+    if (i === 3) break;
+    console.log(i); // Output: 0 1 2
+}
+
+Example (continue):
+
+javascript
+Copy code
+for (let i = 0; i < 5; i++) {
+    if (i === 3) continue;
+    console.log(i); // Output: 0 1 2 4
+}
