@@ -1,0 +1,20 @@
+All about package.json
+
+> what is package?
+> how to make it?
+> check the file in details
+> install external packages
+> Interview questions
+
+package manage project related code
+
+npm init - so we can create package
+node_modules- dependent packages
+package-lock.json - keep packages details(can delete this once npm install run it will rebuilt)
+package.json- manage project related code/details(important file all the project code related details)
+
+npm i colors
+npm i simple-node-logger
+
+Q. Node js is single threaded or multi-threaded?
+A. Single threaded at a time run one command

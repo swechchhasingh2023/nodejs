@@ -19,3 +19,6 @@ function test(a){
 
 const test = (a)=> a*10
 */
+
+Q. What does http module?
+A. It's handle server request and response data.
