@@ -1,0 +1,19 @@
+Input from Command Line
+
+> set input from command Line
+> Create file with input
+> Delete the file with input
+> Interview Question
+
+console.log(process) in a Node.js script, it outputs information about the process object. The process object in Node.js is a global object that provides information about and control over the current Node.js process. This object contains various properties and methods related to the environment in which your script is running.
+
+process.argv is an array in Node.js that contains the command-line arguments passed when running a Node.js script
+
+When you log process, it gives you detailed information about the environment in which your Node.js script is running, including the process ID, command-line arguments, memory usage, platform, and more. This is especially useful for debugging or interacting with the system environment in your Node.js application.
+
+
+node index.js add orange.txt 'this is my orange fruit'
+node index.js remove data.txt
+
+
+

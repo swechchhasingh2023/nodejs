@@ -1,0 +1,18 @@
+Make a simple API
+
+> make a server
+> create header and api body
+> create an api with static data
+> put data in another file
+> interview question
+
+npm init -y
+
+https://restfulapi.net/http-status-codes/
+200 OK	Indicates that the request has succeeded.
+201 Created	Indicates that the request has succeeded and a new resource has been created as a result.
+
+202 Accepted	Indicates that the request has been received but not completed yet. It is typically used in log running requests and batch processing.
+
+301 Moved Permanently	The URL of the requested resource has been changed permanently. The new URL is given by the Location header field in the response. This response is cacheable unless indicated otherwise.
+302 Found	The URL of the requested resource has been changed temporarily. The new URL is given by the Location field in the response. This response is only cacheable if indicated by a Cache-Control or Expires header field.

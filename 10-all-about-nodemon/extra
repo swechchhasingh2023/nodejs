@@ -1,0 +1,18 @@
+Nodemon | time saving module
+
+> what is the Nodemon Package?
+> How to install it?
+> How to use it?
+> Interview Question
+
+npm i nodemon
+npm i nodemon -g (install globally)
+nodemon index.js after
+
+nodejs is asynchronous?
+yes asynchronous but single threaded
+1> run first script
+2> second script (complex data)
+---it will not wait to finish 2nd script
+3> Run third script
+4> Continue
